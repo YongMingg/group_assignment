@@ -1,0 +1,241 @@
+body {
+    max-width: ;
+}
+
+.navbar {
+    background-color: #053742;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #E8F0F2;
+    border: none;
+    color: #A2DBFA;
+}
+
+#main_page_img {
+    position: relative;
+    background-image: url(../img/cameron_highland.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+    /* for h1 center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_page_img h1 {
+    position: relative;
+    color: white;
+    font-size: 150px;
+    font-family: 'Jomhuria', cursive;
+}
+
+#main_page_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.txt-center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.fontJomhuria {
+    font-family: 'Jomhuria', cursive;
+}
+
+.fontBlue {
+    color: #39A2DB;
+}
+
+.font-100 {
+    font-size: 100px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+.fontContent {
+    font-size: 38px;
+    line-height: normal;
+}
+
+#golden-maple-bridge {
+    position: relative;
+    background-image: url(../img/golden_maple_bridge.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+    /* for h2 position */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+}
+
+#golden-maple-bridge h2 {
+    position: relative;
+    color: white;
+    font-size: 65px;
+}
+
+#golden-maple-bridge::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+
+    /* Initially hidden */
+    opacity: 0;
+}
+
+#golden-maple-bridge:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    color: black;
+    font-size: 50px;
+}
+
+#petunia-garden {
+    position: relative;
+    background-image: url(../img/petuniagarden.webp);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for h2 position */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+}
+
+#petunia-garden h2 {
+    position: relative;
+    color: black;
+    font-size: 65px;
+}
+
+#petunia-garden::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    pointer-events: none;
+}
+
+#petunia-garden:hover .overlay {
+    opacity: 1;
+}
+
+#stairway {
+    position: relative;
+    background-image: url(../img/stairway_to_infinity2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+    /* for h2 position */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+}
+
+#stairway h2 {
+    position: relative;
+    color: white;
+    font-size: 65px;
+}
+
+#stairway::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+#stairway:hover .overlay {
+    opacity: 1;
+}
+
+#carouselExampleAutoplaying .carousel-inner .carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btn-color {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #053742;
+    --bs-btn-border-color: #053742;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(11, 93, 215, 0.815);
+    --bs-btn-hover-border-color: rgba(10, 87, 202, 0.731);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgba(10, 87, 202, 0.731);
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #053742;
+    --bs-btn-disabled-border-color: #0d6efd
+}
+
+.parallax {
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ferm-nyonya-parallax {
+    background-image: url(../img/ferm.jpg);
+}
+
+#lakehouse-parallax {
+    background-image: url(../img/lakefront.jpg);
+}
