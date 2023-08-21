@@ -13,6 +13,10 @@ body {
     font-weight: bold;
 }
 
+.nav-link:hover {
+    color: #A2DBFA;
+}
+
 .navbar-toggler {
     background-color: #E8F0F2;
     border: none;
