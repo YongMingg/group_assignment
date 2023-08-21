@@ -12,3 +12,51 @@
     border: none;
     color: #A2DBFA;
 }
+
+body {
+    background-image: url(../img/web_site\ background.jpg);
+    max-width: 1519.2px;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-caption h1 {
+    position: relative;
+    color: white;
+    font-size: 150px;
+    font-family: 'Jomhuria', cursive;
+}
+
+.carousel-caption p {
+    position: relative;
+    color: white;
+    font-size: 60px;
+    font-family: 'Jomhuria', cursive;
+}
+
+.d-block {
+    height: 650px;
+    aspect-ratio: 22 /9;
+    object-fit: cover;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}

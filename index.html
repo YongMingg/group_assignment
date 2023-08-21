@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -28,7 +32,7 @@
             </div>
         </div>
     </nav>
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                 aria-label="Slide 1"></button>
@@ -39,46 +43,89 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                </svg>
                 <div class="container">
+                    <img src="../group_assignment/img/Home slide1.jpg" alt="KLCC Kuala Lumpur" width="100%"
+                        height="650px">
                     <div class="carousel-caption ">
-                        <h1>Travel in Malaysia Tropical Asian Country</h1>
+                        <h1>Travel in Malaysia</h1>
+                        <p>Tropical Asian Country</p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                </svg>
                 <div class="container">
-                    <img src="../" <div class="carousel-caption">
-                    <h1>Travel in Malaysia Tropical Asian Country</h1>
+                    <img src="../group_assignment/img/home slide 2.jpg" alt="Mount Kinabalu" width="100%"
+                        height="650px">
+                    <div class="carousel-caption">
+                        <h1>Travel in Malaysia</h1>
+                        <p>Tropical Asian Country</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <div class="container">
+                    <img src="../group_assignment/img/home slide3.jpg" alt="Semporna" width="100%" height="650px">
+                    <div class="carousel-caption ">
+                        <h1>Travel in Malaysia</h1>
+                        <p>Tropical Asian Country</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-                <div class="carousel-caption ">
-                    <h1>Travel in Malaysia Tropical Asian Country</h1>
+        <button class="carousel-control-prev" width="60" type="button" data-bs-target="#myCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" width="60" type="button" data-bs-target="#myCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active">.</button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1">.</button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2">.</button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Home slide1.jpg" alt="Los Angeles" class="d-block">
+                <div class="carousel-caption text-align-center">
+                    <h1>Travel in Malaysia</h1>
+                    <p>Tropical Asian Country</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/home slide 2.jpg" alt="Chicago" class="d-block">
+                <div class="carousel-caption">
+                    <h1>Travel in Malaysia</h1>
+                    <p>Tropical Asian Country</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/home slide3.jpg" alt="New York" class="d-block">
+                <div class="carousel-caption">
+                    <h1>Travel in Malaysia</h1>
+                    <p>Tropical Asian Country</p>
                 </div>
             </div>
         </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
 
 
