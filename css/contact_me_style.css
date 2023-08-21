@@ -23,6 +23,15 @@ body {
     color: #A2DBFA;
 }
 
+.footer {
+    background-color: #053742;
+}
+
+.footer p {
+    color: white;
+    text-align: right;
+}
+
 .fontJomhuria {
     font-family: 'Jomhuria', cursive;
 }
@@ -83,6 +92,41 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    #footer-logo {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer-navlink {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-navlink a {
+        padding-top: 16px;
+    }
+
+    #footer-social {
+        justify-content: center;
+    }
+
+    #footer-social img {
+        width: 80px;
+        padding: 20px;
+    }
+
+    #footer-copyright {
+        justify-content: center;
+    }
+
+    #footer-copyright p {
+        text-align: center;
+    }
+
     #main_page_img h1 {
         font-size: 120px;
     }

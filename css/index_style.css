@@ -17,6 +17,15 @@
     color: #A2DBFA;
 }
 
+.footer {
+    background-color: #053742;
+}
+
+.footer p {
+    color: white;
+    text-align: right;
+}
+
 body {
     background-image: url(../img/web_site\ background.jpg);
     max-width: 1519.2px;
@@ -63,4 +72,41 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    #footer-logo {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer-navlink {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-navlink a {
+        padding-top: 16px;
+    }
+
+    #footer-social {
+        justify-content: center;
+    }
+
+    #footer-social img {
+        width: 80px;
+        padding: 20px;
+    }
+
+    #footer-copyright {
+        justify-content: center;
+    }
+
+    #footer-copyright p {
+        text-align: center;
+    }
 }
