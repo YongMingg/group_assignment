@@ -272,6 +272,15 @@ body {
         flex-direction: column;
     }
 
+    #flora-intro-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    #florapark .row img {
+        width: 90%;
+    }
+
     #golden-maple-bridge:hover .overlay {
         opacity: 0;
     }
@@ -364,5 +373,53 @@ body {
 
     #lakehouse .col-4 p {
         margin: 24px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #main_page_img h1 {
+        font-size: 100px;
+    }
+
+    #main_page_img {
+        height: 500px;
+    }
+
+    #intro h1 {
+        font-size: 80px;
+    }
+
+    #intro p {
+        font-size: 30px;
+    }
+
+    #what-can-do h1 {
+        font-size: 80px;
+    }
+
+    #what-can-do h2 {
+        font-size: 60px;
+    }
+
+    #what-can-do p {
+        font-size: 30px;
+    }
+
+    #carouselExampleAutoplaying .carousel-inner .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #food_beverages h1 {
+        font-size: 80px;
+    }
+
+    #food_beverages h2 {
+        font-size: 60px;
+    }
+
+    #food_beverages p {
+        font-size: 30px;
     }
 }
