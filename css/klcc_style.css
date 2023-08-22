@@ -35,7 +35,7 @@ body {
 
 #main_page_img {
     position: relative;
-    background-image: url(../img/About/Malaysian_History.png);
+    background-image: url(../img/klcc/istockphoto-521045908-612x612.jpg);
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -82,23 +82,7 @@ body {
     font-size: 100px;
 }
 
-.backgroundblue {
-    background-color: #A2DBFA;
-}
 
-#flex2 {
-    margin-bottom: 150px;
-}
-
-
-
-
-
-@media screen and (max-width: 992px) {
-    #img2 img {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 768px) {
 
@@ -136,38 +120,5 @@ body {
 
     #footer-copyright p {
         text-align: center;
-    }
-
-
-    #img1 img {
-        width: 100%;
-    }
-
-    #img2 img {
-        width: 100%;
-    }
-
-    #flex1 {
-        flex-direction: column;
-    }
-
-    #txt2 {
-        padding-top: 30px;
-    }
-
-    #flex2 {
-        flex-direction: column;
-    }
-
-    #accordion {
-        padding-top: 30px;
-    }
-
-    #flex3 {
-        flex-direction: column;
-    }
-
-    #img3 img {
-        padding-top: 30px;
     }
 }
