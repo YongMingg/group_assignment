@@ -74,6 +74,21 @@ body {
     pointer-events: none;
 }
 
+.txt-center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.fontJomhuria {
+    font-family: 'Jomhuria', cursive;
+}
+
+.fontContent {
+    font-size: 38px;
+    line-height: normal;
+}
+
 @media screen and (max-width: 768px) {
     .footer {
         flex-direction: column;
