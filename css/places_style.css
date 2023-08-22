@@ -1,3 +1,9 @@
+body {
+    background-image: url(../img/web_site\ background.jpg);
+    max-width: 1519.2px;
+    margin: auto;
+}
+
 /* for nav footer css */
 .navbar {
     background-color: #053742;
@@ -28,6 +34,198 @@
 }
 
 /* for nav footer css end*/
+
+#main_page_img {
+    position: relative;
+    background-image: url(../img/tourist-attraction.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+    /* for h1 center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_page_img h1 {
+    position: relative;
+    color: white;
+    font-size: 150px;
+    font-family: 'Jomhuria', cursive;
+}
+
+#main_page_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.fontJomhuria {
+    font-family: 'Jomhuria', cursive;
+}
+
+.fontWhite {
+    color: white;
+}
+
+.font-90 {
+    font-size: 90px;
+}
+
+.font-70 {
+    font-size: 70px;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.btn-color {
+    line-height: normal;
+    --bs-btn-color: #000000;
+    --bs-btn-bg: #A2DBFA;
+    --bs-btn-border-color: #A2DBFA;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: rgba(124, 177, 255, 0.915);
+    --bs-btn-hover-border-color: rgba(124, 177, 255, 0.9815);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: rgba(124, 177, 255, 0.815);
+    --bs-btn-active-border-color: #a2dbfaa7;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: #A2DBFA;
+    --bs-btn-disabled-border-color: #0d6efd
+}
+
+#klcc {
+    position: relative;
+    background-image: url(../img/KLCC.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.picture-dark::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.lineh-normal {
+    line-height: normal;
+}
+
+#peneng-hill {
+    position: relative;
+    background-image: url(../img/penang\ hill.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#langkawi {
+    position: relative;
+    background-image: url(../img/Langkawi-Malaysia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#genting {
+    position: relative;
+    background-image: url(../img/genting.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#cameron {
+    position: relative;
+    background-image: url(../img/cameron.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#kekloksi {
+    position: relative;
+    background-image: url(../img/Kek-Lok-Si-Temple.webp);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#kinabalu {
+    position: relative;
+    background-image: url(../img/kinabalu.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#semporna {
+    position: relative;
+    background-image: url(../img/semporna-places.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    /* for text button to left bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 @media screen and (max-width: 768px) {
 
