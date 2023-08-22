@@ -1,3 +1,9 @@
+body {
+    background-image: url(../img/web_site\ background.jpg);
+    max-width: 1519.2px;
+    margin: auto;
+}
+
 /* for nav footer css */
 .navbar {
     background-color: #053742;
@@ -26,6 +32,65 @@
     color: white;
     text-align: right;
 }
+
+#main_page_img {
+    position: relative;
+    background-image: url(../img/About/Malaysian_History.png);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+    /* for h1 center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_page_img h1 {
+    position: relative;
+    color: white;
+    font-size: 150px;
+    font-family: 'Jomhuria', cursive;
+}
+
+#main_page_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+
+.fontJomhuria {
+    font-family: 'Jomhuria', cursive;
+}
+
+.fontContent {
+    font-size: 38px;
+    line-height: normal;
+}
+
+.fontBlue {
+    color: #39A2DB;
+}
+
+.font-100 {
+    font-size: 100px;
+}
+
+.backgroundblue {
+    background-color: #A2DBFA;
+}
+
+#pac {
+    margin-bottom: 100px;
+}
+
+
 
 /* for nav footer css end*/
 
