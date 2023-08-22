@@ -86,13 +86,19 @@ body {
     background-color: #A2DBFA;
 }
 
-#pac {
-    margin-bottom: 100px;
+#flex2 {
+    margin-bottom: 150px;
 }
 
 
 
 /* for nav footer css end*/
+
+@media screen and (max-width: 992px) {
+    #img2 img {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -133,4 +139,36 @@ body {
     }
 
     /* for nav footer css end*/
+
+    #img1 img {
+        width: 100%;
+    }
+
+    #img2 img {
+        width: 100%;
+    }
+
+    #flex1 {
+        flex-direction: column;
+    }
+
+    #txt2 {
+        padding-top: 30px;
+    }
+
+    #flex2 {
+        flex-direction: column;
+    }
+
+    #accordion {
+        padding-top: 30px;
+    }
+
+    #flex3 {
+        flex-direction: column;
+    }
+
+    #img3 img {
+        padding-top: 30px;
+    }
 }
