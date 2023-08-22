@@ -4,6 +4,7 @@ body {
     margin: auto;
 }
 
+/* for nav footer css */
 .navbar {
     background-color: #053742;
 }
@@ -31,6 +32,8 @@ body {
     color: white;
     text-align: right;
 }
+
+/* for nav footer css end*/
 
 #main_page_img {
     position: relative;
@@ -256,6 +259,8 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+    /* for footer css */
     .footer {
         flex-direction: column;
     }
@@ -290,6 +295,8 @@ body {
     #footer-copyright p {
         text-align: center;
     }
+
+    /* for footer css end */
 
     #main_page_img h1 {
         font-size: 120px;
