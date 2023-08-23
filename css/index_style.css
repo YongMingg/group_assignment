@@ -20,6 +20,82 @@
     color: #A2DBFA;
 }
 
+.fontBlue {
+    color: #39A2DB;
+}
+
+.font-100 {
+    font-size: 100px;
+}
+
+#popular_img a {
+    color: black;
+    font-size: 38px;
+    text-decoration: none;
+}
+
+.thumbnail {
+    position: relative;
+    text-align: center;
+}
+
+.thumbnail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 74%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.center-caption {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.Lern_bg {
+    position: relative;
+    text-align: center;
+}
+
+.Lern_bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.button_viewall {
+    text-align: center;
+}
+
+.btn-color {
+    line-height: normal;
+    --bs-btn-color: #000000;
+    --bs-btn-bg: #A2DBFA;
+    --bs-btn-border-color: #A2DBFA;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: rgba(124, 177, 255, 0.915);
+    --bs-btn-hover-border-color: rgba(124, 177, 255, 0.9815);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: rgba(124, 177, 255, 0.815);
+    --bs-btn-active-border-color: #a2dbfaa7;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: #A2DBFA;
+    --bs-btn-disabled-border-color: #0d6efd
+}
+
 .footer {
     background-color: #053742;
 }
@@ -32,7 +108,7 @@
 /* for nav footer css end*/
 
 body {
-    background-image: url(../img/web_site\ background.jpg);
+    background-image: url(../img/low\ website\ background.jpg);
     max-width: 1519.2px;
     margin: auto;
 }
