@@ -1,7 +1,10 @@
+.container {
+    padding: 0;
+}
+
 body {
     background-image: url(../img/web_site\ background.jpg);
-    max-width: 1519.2px;
-    margin: auto;
+
 }
 
 /* for nav footer css */

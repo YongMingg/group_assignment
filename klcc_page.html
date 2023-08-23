@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-xxl px-0">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -41,8 +41,8 @@
         <div class="row my-5">
             <h1 class="text-center fontJomhuria fontBlue font-100">Introduction</h1>
         </div>
-        <div class="row my-5">
-            <div class="col d-flex justify-content-center align-items-center">
+        <div class="row my-5" id="flex1">
+            <div class="col d-flex justify-content-center align-items-center" id="img1">
                 <img src="img/klcc/istockphoto-1322948326-612x612.jpg" alt="pic" width="80%">
             </div>
             <div class="col d-flex justify-content-center align-items-center">
@@ -63,7 +63,7 @@
         <div class="row my-5">
             <h1 class="text-center fontJomhuria fontBlue font-100">Attraction</h1>
         </div>
-        <div class="row my-5">
+        <div class="row my-5" id="flex2">
             <div class="col">
                 <h1 class="text-center fontJomhuria fontBlue font-100">Petronas Twin Tower</h1>
                 <p class="m-0 px-5 fontJomhuria fontContent text-center">
@@ -98,7 +98,7 @@
         </div>
 
 
-        <div class="row my-5">
+        <div class="row my-5" id="flex3">
             <div class="col d-flex justify-content-center align-items-center">
                 <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -138,7 +138,7 @@
             </div>
         </div>
 
-        <div class="row my-5">
+        <div class="row my-5" id="flex4">
             <div class="col">
                 <h1 class="text-center fontJomhuria fontBlue font-100">Aquarium</h1>
                 <p class="m-0 px-5 fontJomhuria fontContent text-center">
@@ -175,7 +175,7 @@
             </div>
         </div>
 
-        <div class="row my-5">
+        <div class="row my-5" id="flex5">
             <div class="col d-flex justify-content-center align-items-center">
                 <div id="carouselExampleAutoplaying4" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -212,35 +212,97 @@
             </div>
         </div>
 
-
-
-        <!-- footer -->
-        <div class="container-fluid">
-            <div class="footer row">
-                <div class="col p-lg-5 m-lg-2" id="footer-logo"><a href="index.html"><img
-                            src="img/WD_assignment logo.png" alt="logo" height="60px"></a>
+        <div class="row my-5">
+            <h1 class="text-center fontJomhuria fontBlue font-100">Getting to KLCC</h1>
+        </div>
+        <div class="row my-5">
+            <div class="transport col mx-5 p-5">
+                <div>
+                    <img src="img/klcc/taxi.png" alt="taxi">
                 </div>
-                <div class="col">
-                    <div class="d-flex justify-content-end pt-3" id="footer-navlink">
-                        <a class="nav-link active ms-5 me-5" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link active ms-5 me-5" aria-current="page" href="about_page.html">About</a>
-                        <a class="nav-link active ms-5 me-5" aria-current="page" href="places_page.html">Place</a>
-                        <a class="nav-link active ms-5 me-5" aria-current="page" href="contact_me_page.html">Contact</a>
-                    </div>
-                    <div class="d-flex justify-content-lg-end pt-lg-3" id="footer-social">
-                        <a href="#" target="_blank"><img class="pe-lg-5" src="img/facebook-48.png" alt=""></a>
-                        <a href="#" target="_blank"><img class="pe-lg-5" src="img/instagram-48.png" alt=""></a>
-                        <a href="#" target="_blank"><img class="pe-lg-5" src="img/github-48.png" alt=""></a>
-                    </div>
-                    <div class="d-flex justify-content-lg-end pt-lg-3 me-lg-5" id="footer-copyright">
-                        <p>Copyright © 2023 NewEra.<br>
-                            All Rights Reserved</p>
-                    </div>
+                <div class="fontJomhuria">
+                    <h1 class="fontBlue font-80">Taxi or Grabcar</h1>
+                    <p class="fontContent">Taxi & Grab Car drop off / lounge: in front of our main entrance facing Jalan
+                        P. Ramlee.
+                        Enjoy 2 Grab rides when you spend RM500 in a single receipt at any specialty store during
+                        weekends.<br>
+                        * Promotion code is only applicable for travel to or from Suria KLCC. Limited to the first 75
+                        shoppers per day on weekends (Saturdays and Sundays only).</p>
+                </div>
+            </div>
+            <div class="transport col mx-5 p-5">
+                <div>
+                    <img src="img/klcc/car.png" alt="car">
+                </div>
+                <div class="fontJomhuria">
+                    <h1 class="fontBlue font-80">Car Parking Access</h1>
+                    <p class="fontContent">With multiple access and ingress from and to Jalan Ampang, Jalan P. Ramlee,
+                        Jalan Pinang, Jalan Tun Razak and from the Ampang – Kuala Lumpur elevated highway (AKLEH).</p>
                 </div>
             </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-            crossorigin="anonymous"></script>
+        <div class="row my-5" id="flex6">
+            <div class="transport col mx-5 p-5">
+                <div class="mb-3">
+                    <img src="img/klcc/bus.png" alt="bus">
+                </div>
+                <div class="fontJomhuria">
+                    <h1 class="fontBlue font-80">Bus</h1>
+                    <p class="fontContent">RapidKL City Buses:<br>
+                        - B103: Titiwangsa Bus Station at Jalan Tun Razak → KLCC (stops at KLCC LRT Station)<br>
+                        - B114: Maluri Bus Station at Jalan Cheras → Titiwangsa Bus Station at Jalan Tun Razak via KLCC
+                        (Stops in front of Suria KLCC)
+                    </p>
+                </div>
+            </div>
+            <div class="transport col mx-5 p-5">
+                <div class="mb-3">
+                    <img src="img/klcc/train (1).png" alt="car">
+                </div>
+                <div class="fontJomhuria">
+                    <h1 class="fontBlue font-80">Train</h1>
+                    <p class="fontContent">By LRT / KLIA Ekspress / MRT:<br>
+                        - KLIA Ekspress (KL Sentral) or Pasar Seni (MRT Interchange SBK16) → Kelana Jaya Line Light
+                        Rail<br>
+                        - Transit (LRT) → KLCC Station (KJ10) and take the exit that has Suria KLCC signage to our mall.
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- footer -->
+
+        <div class="footer row">
+            <div class="col p-lg-5 m-lg-2" id="footer-logo"><a href="index.html"><img src="img/WD_assignment logo.png"
+                        alt="logo" height="60px"></a>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-end pt-3" id="footer-navlink">
+                    <a class="nav-link active ms-5 me-5" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active ms-5 me-5" aria-current="page" href="about_page.html">About</a>
+                    <a class="nav-link active ms-5 me-5" aria-current="page" href="places_page.html">Place</a>
+                    <a class="nav-link active ms-5 me-5" aria-current="page" href="contact_me_page.html">Contact</a>
+                </div>
+                <div class="d-flex justify-content-lg-end pt-lg-3" id="footer-social">
+                    <a href="#" target="_blank"><img class="pe-lg-5" src="img/facebook-48.png" alt=""></a>
+                    <a href="#" target="_blank"><img class="pe-lg-5" src="img/instagram-48.png" alt=""></a>
+                    <a href="#" target="_blank"><img class="pe-lg-5" src="img/github-48.png" alt=""></a>
+                </div>
+                <div class="d-flex justify-content-lg-end pt-lg-3 me-lg-5" id="footer-copyright">
+                    <p>Copyright © 2023 NewEra.<br>
+                        All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
