@@ -468,6 +468,10 @@ body {
         font-size: 60px;
     }
 
+    #golden-maple-bridge h2 {
+        text-align: center;
+    }
+
     #what-can-do p {
         font-size: 30px;
     }
@@ -483,7 +487,10 @@ body {
     }
 
     #food_beverages h2 {
+        padding-left: 24px;
+        padding-right: 24px;
         font-size: 60px;
+        line-height: normal;
     }
 
     #food_beverages p {

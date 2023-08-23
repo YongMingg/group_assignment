@@ -120,7 +120,6 @@ body {
 .state-flag {
     display: flex;
     justify-content: flex-end;
-    /* align-items: flex-start; */
 }
 
 .state-flag img {
@@ -276,4 +275,64 @@ body {
     }
 
     /* for nav footer css end*/
+
+    #main_page_img h1 {
+        font-size: 120px;
+    }
+
+    #main_page_img {
+        height: 600px;
+    }
+
+    #content .d-flex {
+        flex-direction: column;
+    }
+
+    #content h1 {
+        font-size: 70px;
+    }
+
+    #content h2 {
+        font-size: 50px;
+    }
+
+    #content button {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #main_page_img h1 {
+        font-size: 100px;
+    }
+
+    #main_page_img {
+        height: 500px;
+    }
+
+    #content h1 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    #content h2 {
+        font-size: 40px;
+    }
+
+    #content button {
+        font-size: 25px;
+    }
+
+    .state-flag img {
+        margin-top: 14px;
+    }
+
+    .state-flag img {
+        width: 75px;
+    }
+
+    .ms-phone-padding {
+        padding-left: 12px;
+        padding-bottom: 12px;
+    }
 }
