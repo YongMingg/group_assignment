@@ -1,6 +1,8 @@
 /* for nav footer css */
 .navbar {
     background-color: #053742;
+    max-width: 1519.2px;
+    margin: auto;
 }
 
 .nav-link {

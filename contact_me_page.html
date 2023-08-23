@@ -15,85 +15,88 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <div class="container-xxl p-0">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/WD_assignment logo.png" alt="logo"
+                        height="45px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <a class="nav-link active ms-3 me-3" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active ms-3 me-3" aria-current="page" href="about_page.html">About</a>
+                    <a class="nav-link active ms-3 me-3" aria-current="page" href="places_page.html">Place</a>
+                    <a class="nav-link active ms-3 me-3" aria-current="page" href="contact_me_page.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div id="main_page_img">
+            <h1 class="m-0 text-center fontJomhuria">Contact</h1>
+        </div>
+
+        <div class="mt-5 mb-5" id="get-in-touch">
+            <div>
+                <h1 class="fontJomhuria fontBlue font-100 text-center">Get In Touch With Us</h1>
+            </div>
+            <div class="ms-5 me-5 ps-lg-5 pe-lg-5">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name"
+                            fdprocessedid="ue7foe">
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="youremail@mail.com"
+                            fdprocessedid="jt4gs">
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea type="text" class="form-control" id="message" placeholder="Your Message"
+                            style="height: 250px" fdprocessedid="ue7foe"></textarea>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="text-center mt-5"><button type="button" class="btn btn-color btn-lg">Send Message</button></div>
+        </div>
+
+        <!-- footer -->
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="img/WD_assignment logo.png" alt="logo"
-                    height="45px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <a class="nav-link active ms-3 me-3" aria-current="page" href="index.html">Home</a>
-                <a class="nav-link active ms-3 me-3" aria-current="page" href="about_page.html">About</a>
-                <a class="nav-link active ms-3 me-3" aria-current="page" href="places_page.html">Place</a>
-                <a class="nav-link active ms-3 me-3" aria-current="page" href="contact_me_page.html">Contact</a>
-            </div>
-        </div>
-    </nav>
-
-    <div id="main_page_img">
-        <h1 class="m-0 text-center fontJomhuria">Contact</h1>
-    </div>
-
-    <div class="mt-5 mb-5" id="get-in-touch">
-        <div>
-            <h1 class="fontJomhuria fontBlue font-100 text-center">Get In Touch With Us</h1>
-        </div>
-        <div class="ms-5 me-5 ps-lg-5 pe-lg-5">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name" fdprocessedid="ue7foe">
+            <div class="footer row">
+                <div class="col p-lg-5 m-lg-2" id="footer-logo"><a href="index.html"><img
+                            src="img/WD_assignment logo.png" alt="logo" height="60px"></a>
                 </div>
-                <div class="col-2"></div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="youremail@mail.com"
-                        fdprocessedid="jt4gs">
-                </div>
-                <div class="col-2"></div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea type="text" class="form-control" id="message" placeholder="Your Message"
-                        style="height: 250px" fdprocessedid="ue7foe"></textarea>
-                </div>
-                <div class="col-2"></div>
-            </div>
-        </div>
-        <div class="text-center mt-5"><button type="button" class="btn btn-color btn-lg">Send Message</button></div>
-    </div>
-
-    <!-- footer -->
-    <div class="container-fluid">
-        <div class="footer row">
-            <div class="col p-lg-5 m-lg-2" id="footer-logo"><a href="index.html"><img src="img/WD_assignment logo.png"
-                        alt="logo" height="60px"></a>
-            </div>
-            <div class="col">
-                <div class="d-flex justify-content-end pt-3" id="footer-navlink">
-                    <a class="nav-link active ms-5 me-5" aria-current="page" href="index.html">Home</a>
-                    <a class="nav-link active ms-5 me-5" aria-current="page" href="about_page.html">About</a>
-                    <a class="nav-link active ms-5 me-5" aria-current="page" href="places_page.html">Place</a>
-                    <a class="nav-link active ms-5 me-5" aria-current="page" href="contact_me_page.html">Contact</a>
-                </div>
-                <div class="d-flex justify-content-lg-end pt-lg-3" id="footer-social">
-                    <a href="#" target="_blank"><img class="pe-lg-5" src="img/facebook-48.png" alt=""></a>
-                    <a href="#" target="_blank"><img class="pe-lg-5" src="img/instagram-48.png" alt=""></a>
-                    <a href="#" target="_blank"><img class="pe-lg-5" src="img/github-48.png" alt=""></a>
-                </div>
-                <div class="d-flex justify-content-lg-end pt-lg-3 me-lg-5" id="footer-copyright">
-                    <p>Copyright © 2023 NewEra.<br>
-                        All Rights Reserved</p>
+                <div class="col">
+                    <div class="d-flex justify-content-end pt-3" id="footer-navlink">
+                        <a class="nav-link active ms-5 me-5" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active ms-5 me-5" aria-current="page" href="about_page.html">About</a>
+                        <a class="nav-link active ms-5 me-5" aria-current="page" href="places_page.html">Place</a>
+                        <a class="nav-link active ms-5 me-5" aria-current="page" href="contact_me_page.html">Contact</a>
+                    </div>
+                    <div class="d-flex justify-content-lg-end pt-lg-3" id="footer-social">
+                        <a href="#" target="_blank"><img class="pe-lg-5" src="img/facebook-48.png" alt=""></a>
+                        <a href="#" target="_blank"><img class="pe-lg-5" src="img/instagram-48.png" alt=""></a>
+                        <a href="#" target="_blank"><img class="pe-lg-5" src="img/github-48.png" alt=""></a>
+                    </div>
+                    <div class="d-flex justify-content-lg-end pt-lg-3 me-lg-5" id="footer-copyright">
+                        <p>Copyright © 2023 NewEra.<br>
+                            All Rights Reserved</p>
+                    </div>
                 </div>
             </div>
         </div>
