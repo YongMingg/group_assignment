@@ -1,0 +1,191 @@
+body {
+    background-image: url(../img/low\ website\ background.jpg);
+}
+
+/* for nav footer css */
+.navbar {
+    background-color: #053742;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #A2DBFA;
+}
+
+.navbar-toggler {
+    background-color: #E8F0F2;
+    border: none;
+    color: #A2DBFA;
+}
+
+#main_page_img {
+    position: relative;
+    background-image: url(../img/mountkinabalu-full.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+    /* for h1 center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_page_img h1 {
+    position: relative;
+    color: white;
+    font-size: 150px;
+}
+
+#main_page_img p {
+    position: absolute;
+    color: black;
+    font-size: 60px;
+    bottom: -5%;
+    right: 1%;
+}
+
+#main_page_img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.center-caption {
+    position: absolute;
+    top: 42%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    font-size: 28px;
+}
+
+.Legend_kianbalu {
+    position: relative;
+    text-align: center;
+}
+
+.Legend_kianbalu::before {
+    content: "";
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    width: 40%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.footer {
+    background-color: #053742;
+}
+
+.footer p {
+    color: white;
+    text-align: right;
+}
+
+.fontJomhuria {
+    font-family: 'Jomhuria', cursive;
+}
+
+.fontContent {
+    font-size: 38px;
+    line-height: normal;
+}
+
+.fontBlue {
+    color: #39A2DB;
+}
+
+.font-100 {
+    font-size: 100px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+.transport {
+    border: 2px black solid;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* for footer css */
+    .footer {
+        flex-direction: column;
+    }
+
+    #footer-logo {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer-navlink {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-navlink a {
+        padding-top: 16px;
+    }
+
+    #footer-social {
+        justify-content: center;
+    }
+
+    #footer-social img {
+        width: 80px;
+        padding: 20px;
+    }
+
+    #footer-copyright {
+        justify-content: center;
+    }
+
+    #footer-copyright p {
+        text-align: center;
+    }
+
+    #main_page_img h1 {
+        font-size: 100px;
+    }
+
+    #flex1 {
+        flex-direction: column;
+    }
+
+    #img1 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #flex2 {
+        flex-direction: column-reverse;
+    }
+
+    #flex3 {
+        flex-direction: column;
+    }
+
+    #flex4 {
+        flex-direction: column-reverse;
+    }
+
+    #flex5 {
+        flex-direction: column;
+    }
+}
