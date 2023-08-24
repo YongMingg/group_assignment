@@ -88,7 +88,29 @@ body {
     border: 2px black solid;
 }
 
+#carouselExampleAutoplaying1 .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
 
+#carouselExampleAutoplaying2 .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#carouselExampleAutoplaying3 .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#carouselExampleAutoplaying4 .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
 
 @media screen and (max-width: 768px) {
 
