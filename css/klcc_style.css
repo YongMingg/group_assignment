@@ -1,4 +1,5 @@
-body {
+.container-xxl {
+    padding: 0;
     background-image: url(../img/web_site\ background\(opacity-50\).png);
 }
 
@@ -88,9 +89,36 @@ body {
     border: 2px black solid;
 }
 
+#carouselExampleAutoplaying1 .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
 
+#carouselExampleAutoplaying2 .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#carouselExampleAutoplaying3 .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#carouselExampleAutoplaying4 .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
 
 @media screen and (max-width: 768px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     /* for footer css */
     .footer {
