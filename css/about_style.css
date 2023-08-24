@@ -1,8 +1,5 @@
-.container {
+.container-xxl {
     padding: 0;
-}
-
-body {
     background-image: url(../img/web_site\ background\(opacity-50\).png);
 }
 
@@ -97,12 +94,23 @@ body {
 
 
 @media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     #img2 img {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     /* for footer css */
     .footer {
@@ -140,13 +148,16 @@ body {
         text-align: center;
     }
 
-
     #img1 img {
         width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     #img2 img {
         width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     #flex1 {

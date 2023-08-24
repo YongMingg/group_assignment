@@ -1,7 +1,6 @@
-body {
+.container-xxl {
+    padding: 0;
     background-image: url(../img/web_site\ background\(opacity-50\).png);
-    max-width: 1519.2px;
-    margin: auto;
 }
 
 /* for nav footer css */
@@ -98,7 +97,20 @@ body {
     --bs-btn-disabled-border-color: #0d6efd
 }
 
+@media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     /* for footer css */
     .footer {

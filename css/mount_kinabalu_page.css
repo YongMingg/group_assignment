@@ -1,5 +1,6 @@
-body {
-    background-image: url(../img/low\ website\ background.jpg);
+.container-xxl {
+    padding: 0;
+    background-image: url(../img/web_site\ background\(opacity-50\).png);
 }
 
 /* for nav footer css */
@@ -120,9 +121,22 @@ body {
     border: 2px black solid;
 }
 
+@media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 
 
 @media screen and (max-width: 768px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     /* for footer css */
     .footer {

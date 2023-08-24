@@ -1,3 +1,8 @@
+.container-xxl {
+    padding: 0;
+    background-image: url(../img/web_site\ background\(opacity-50\).png);
+}
+
 /* for nav footer css */
 .navbar {
     background-color: #053742;
@@ -34,10 +39,67 @@
     text-decoration: none;
 }
 
-.thumbnail {
+#kl {
     position: relative;
-    text-align: center;
+    background-image: url(../img/KLCC.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+
+    /* for text button to left bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.fontWhite {
+    color: white;
+    margin: 0;
+}
+
+.fontRelative {
+    position: relative;
+}
+
+#penang {
+    position: relative;
+    background-image: url(../img/penang\ hill.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+
+    /* for text button to left bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pahang {
+    position: relative;
+    background-image: url(../img/genting.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+
+    /* for text button to left bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kedah {
+    position: relative;
+    background-image: url(../img/Langkawi-Malaysia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+
+    /* for text button to left bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .thumbnail::before {
     content: "";
@@ -45,22 +107,30 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 74%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     pointer-events: none;
 }
 
-.center-caption {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+.Lern_bg {
+    background-image: url(../img/home_know_more.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.Lern_bg {
-    position: relative;
-    text-align: center;
+.font-60 {
+    font-size: 50px;
+}
+
+.font-40 {
+    font-size: 40px;
 }
 
 .Lern_bg::before {
@@ -72,6 +142,10 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     pointer-events: none;
+}
+
+#Lern-inside {
+    position: relative;
 }
 
 .button_viewall {
@@ -106,12 +180,6 @@
 }
 
 /* for nav footer css end*/
-
-body {
-    background-image: url(../img/low\ website\ background.jpg);
-    max-width: 1519.2px;
-    margin: auto;
-}
 
 .container {
     position: relative;
@@ -179,7 +247,21 @@ body {
     align-items: center;
 }
 
+@media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     /* for footer css */
     .footer {
@@ -218,4 +300,26 @@ body {
     }
 
     /* for nav footer css end*/
+    #malaysia_flag {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #malaysia_flag img {
+        width: 100%;
+    }
+
+    .Lern_bg {
+        height: 1000px;
+    }
+
+    #malaysia_flag .col-7 {
+        width: 100%;
+    }
+
+    .Lern_bg {
+        height: 550px;
+    }
 }
+
+@media screen and (max-width: 480px) {}
