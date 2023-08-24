@@ -257,6 +257,13 @@
     background-image: url(../img/lakefront.jpg);
 }
 
+
+@media screen and (max-width: 992px) {
+    .social-icon {
+        margin-top: 18px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .navbar a {
         text-align: center;
