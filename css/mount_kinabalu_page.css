@@ -127,6 +127,24 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    #footer-social {
+        justify-content: end;
+
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 48px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 48px;
+    }
 }
 
 
