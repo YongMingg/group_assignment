@@ -179,8 +179,6 @@
     text-align: right;
 }
 
-/* for nav footer css end*/
-
 .container {
     position: relative;
 }
@@ -300,6 +298,7 @@
     }
 
     /* for nav footer css end*/
+
     #malaysia_flag {
         flex-direction: column;
         text-align: center;
