@@ -48,9 +48,17 @@
 
     /* for text button to left bottom */
     display: flex;
-    text-align: center;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.fontWhite {
+    color: white;
+    margin: 0;
+}
+
+.fontRelative {
+    position: relative;
 }
 
 #penang {
@@ -62,8 +70,8 @@
 
     /* for text button to left bottom */
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 #pahang {
@@ -75,8 +83,8 @@
 
     /* for text button to left bottom */
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 #kedah {
@@ -88,8 +96,8 @@
 
     /* for text button to left bottom */
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -104,21 +112,16 @@
     pointer-events: none;
 }
 
-.center-caption {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-
 .Lern_bg {
     background-image: url(../img/home_know_more.jpg);
     background-size: cover;
     background-position: center;
     height: 650px;
     position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -139,6 +142,10 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     pointer-events: none;
+}
+
+#Lern-inside {
+    position: relative;
 }
 
 .button_viewall {
@@ -173,12 +180,6 @@
 }
 
 /* for nav footer css end*/
-
-body {
-    background-image: url(../img/low\ website\ background.jpg);
-    max-width: 1519.2px;
-    margin: auto;
-}
 
 .container {
     position: relative;
@@ -312,6 +313,13 @@ body {
         height: 1000px;
     }
 
+    #malaysia_flag .col-7 {
+        width: 100%;
+    }
+
+    .Lern_bg {
+        height: 550px;
+    }
 }
 
 @media screen and (max-width: 480px) {}
