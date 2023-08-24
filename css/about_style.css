@@ -94,6 +94,12 @@
 
 
 @media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     #img2 img {
         width: 100%;
     }

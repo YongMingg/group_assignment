@@ -91,3 +91,11 @@
     font-size: 38px;
     line-height: normal;
 }
+
+@media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

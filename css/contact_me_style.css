@@ -97,6 +97,14 @@
     --bs-btn-disabled-border-color: #0d6efd
 }
 
+@media screen and (max-width: 992px) {
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .navbar a {
         text-align: center;
