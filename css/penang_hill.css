@@ -1,7 +1,6 @@
-body {
+.container-xxl {
+    padding: 0;
     background-image: url(../img/web_site\ background\(opacity-50\).png);
-    max-width: 1519.2px;
-    margin: auto;
 }
 
 /* for nav footer css */

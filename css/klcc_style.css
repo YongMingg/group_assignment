@@ -1,4 +1,5 @@
-body {
+.container-xxl {
+    padding: 0;
     background-image: url(../img/web_site\ background\(opacity-50\).png);
 }
 
