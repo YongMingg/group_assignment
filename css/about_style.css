@@ -140,13 +140,16 @@ body {
         text-align: center;
     }
 
-
     #img1 img {
         width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     #img2 img {
         width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     #flex1 {
