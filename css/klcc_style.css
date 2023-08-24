@@ -45,6 +45,15 @@
     align-items: center;
 }
 
+.fontWhite {
+    color: white;
+    margin: 0;
+}
+
+.fontRelative {
+    position: relative;
+}
+
 #main_page_img h1 {
     position: relative;
     color: white;
