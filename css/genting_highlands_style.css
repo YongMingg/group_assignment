@@ -230,8 +230,6 @@
 }
 
 @media screen and (max-width: 992px) {
-
-
     .navbar a {
         text-align: center;
         padding-top: 10px;
@@ -256,9 +254,16 @@
         padding-right: 48px;
     }
 
-
     .social-icon {
         margin-top: 18px;
+    }
+
+    #below-theme-park {
+        height: 420px;
+    }
+
+    #below-gentingskyway {
+        height: 270px;
     }
 }
 
