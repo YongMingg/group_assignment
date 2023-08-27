@@ -42,12 +42,20 @@
     font-size: 100px;
 }
 
-.font-35 {
-    font-size: 35px;
+.font-60 {
+    font-size: 60px;
+}
+
+.font-38 {
+    font-size: 38px;
 }
 
 .fontBlue {
     color: #39A2DB;
+}
+
+.shadow {
+    text-shadow: black;
 }
 
 #main_page_img {
@@ -95,6 +103,51 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #39A2DB;
     --bs-btn-disabled-border-color: #0d6efd
+}
+
+.sem_img1 {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+.sem_img2 {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+.sem_img3 {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+.size_img1 {
+    aspect-ratio: 12 /9;
+    object-fit: cover;
+}
+
+.size_img2 {
+    aspect-ratio: 12 /9;
+    object-fit: cover;
+}
+
+.size_img3 {
+    aspect-ratio: 12 /9;
+    object-fit: cover;
+}
+
+.size_img4 {
+    aspect-ratio: 12 /9;
+    object-fit: cover;
+}
+
+.card {
+    padding: 0;
+
+}
+
+.img_food {
+    aspect-ratio: 17.5 /9;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 992px) {
@@ -190,6 +243,10 @@
 
     #get-in-touch .row .col-8 {
         width: 80%;
+    }
+
+    .d-flex {
+        flex-direction: row;
     }
 }
 
