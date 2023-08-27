@@ -496,6 +496,10 @@
         font-size: 30px;
     }
 
+    #golden-maple-bridge {
+        height: 400px;
+    }
+
     #carouselExampleAutoplaying .carousel-inner .carousel-item img {
         height: 300px;
         object-fit: cover;
