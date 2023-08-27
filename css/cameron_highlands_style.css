@@ -87,6 +87,10 @@
     font-size: 80px;
 }
 
+.font-30 {
+    font-size: 30px;
+}
+
 .fontContent {
     font-size: 38px;
     line-height: normal;
@@ -101,8 +105,8 @@
 
     /* for h2 position */
     display: flex;
-    justify-content: center;
-    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
     overflow: hidden;
 }
 
@@ -110,6 +114,14 @@
     position: relative;
     color: white;
     font-size: 65px;
+}
+
+#golden-maple-bridge button {
+    position: relative;
+    align-self: center;
+    line-height: normal;
+    margin-bottom: 24px;
+    padding-bottom: 3px;
 }
 
 #golden-maple-bridge::before {
@@ -153,13 +165,21 @@
     background-image: url(../img/petuniagarden.webp);
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 350px;
 
     /* for h2 position */
     display: flex;
-    justify-content: center;
-    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
     overflow: hidden;
+}
+
+#petunia-garden button {
+    position: relative;
+    align-self: center;
+    line-height: normal;
+    margin-bottom: 24px;
+    padding-bottom: 3px;
 }
 
 #petunia-garden h2 {
@@ -188,13 +208,21 @@
     background-image: url(../img/stairway_to_infinity2.jpg);
     background-position: center;
     background-size: cover;
-    height: 600px;
+    height: 350px;
 
     /* for h2 position */
     display: flex;
-    justify-content: center;
-    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
     overflow: hidden;
+}
+
+#stairway button {
+    position: relative;
+    align-self: center;
+    line-height: normal;
+    margin-bottom: 24px;
+    padding-bottom: 3px;
 }
 
 #stairway h2 {
@@ -242,8 +270,6 @@
 }
 
 @media screen and (max-width: 992px) {
-
-
     .navbar a {
         text-align: center;
         padding-top: 10px;
@@ -270,6 +296,10 @@
 
     .social-icon {
         margin-top: 18px;
+    }
+
+    .overlay-p {
+        line-height: normal;
     }
 }
 
@@ -360,12 +390,23 @@
         opacity: 0;
     }
 
-    #petunia-garden {
-        display: none;
+    #golden-maple-bridge {
+        height: 300px;
     }
 
-    #stairway {
-        display: none;
+    #below-maple {
+        margin-left: 48px;
+        margin-right: 48px;
+        height: 600px;
+        flex-direction: column;
+    }
+
+    #golden-maple-bridge h2 {
+        font-size: 60px;
+    }
+
+    #below-maple h2 {
+        font-size: 60px;
     }
 
     #row-up {
@@ -488,16 +529,51 @@
         font-size: 60px;
     }
 
+    #flora-intro-img {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    #golden-maple-bridge {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 32px;
+    }
+
+    #golden-maple-bridge button {
+        font-size: 20px;
+        padding-bottom: 3px;
+    }
+
+    #petunia-garden button {
+        font-size: 20px;
+        padding-bottom: 3px;
+    }
+
+    #stairway button {
+        font-size: 20px;
+        padding-bottom: 3px;
+    }
+
+    #golden-maple-bridge h2 {
+        font-size: 50px;
+    }
+
+    #below-maple h2 {
+        font-size: 50px;
+    }
+
     #golden-maple-bridge h2 {
         text-align: center;
     }
 
-    #what-can-do p {
-        font-size: 30px;
+    .ms-sheep-img {
+        margin-left: 37px;
+        margin-right: 37px;
     }
 
-    #golden-maple-bridge {
-        height: 400px;
+    #what-can-do p {
+        font-size: 30px;
     }
 
     #carouselExampleAutoplaying .carousel-inner .carousel-item img {
