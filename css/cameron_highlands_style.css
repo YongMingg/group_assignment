@@ -241,23 +241,6 @@
     --bs-btn-disabled-border-color: #0d6efd
 }
 
-.parallax {
-    min-height: 700px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#ferm-nyonya-parallax {
-    background-image: url(../img/ferm.jpg);
-}
-
-#lakehouse-parallax {
-    background-image: url(../img/lakefront.jpg);
-}
-
-
 @media screen and (max-width: 992px) {
 
 
