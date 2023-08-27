@@ -122,6 +122,13 @@
     object-position: center;
 }
 
+@media screen and (max-width: 1050px) {
+    #footer-logo a img {
+        width: 100%;
+    }
+}
+
+
 @media screen and (max-width: 992px) {
     .navbar a {
         text-align: center;
@@ -131,7 +138,6 @@
 
     #footer-social {
         justify-content: end;
-
     }
 
     .footer_logo {
@@ -218,5 +224,19 @@
 
     #flex5 {
         flex-direction: column;
+    }
+
+    #flex6 {
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    #flex7 {
+        flex-direction: column;
+    }
+
+    .transport {
+        width: 100%;
+        margin-bottom: 60px;
     }
 }
