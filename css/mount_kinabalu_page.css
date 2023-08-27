@@ -303,7 +303,7 @@
     background-color: rgb(162 219 250);
     outline: none;
     font-weight: normal;
-    max-width: 22%;
+    max-width: 100%;
     overflow: hidden;
     text-align: center;
     cursor: pointer;
