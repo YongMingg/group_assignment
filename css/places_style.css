@@ -328,6 +328,13 @@
     }
 }
 
+@media screen and (max-width: 576px) {
+    .ms-phone-padding {
+        padding-left: 24px;
+        padding-bottom: 24px;
+    }
+}
+
 @media screen and (max-width: 415px) {
     #main_page_img h1 {
         font-size: 100px;
