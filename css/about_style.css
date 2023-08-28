@@ -8,6 +8,10 @@
     background-color: #053742;
 }
 
+.nav-link:visited {
+    color: white;
+}
+
 .nav-link {
     color: white;
     font-weight: bold;
