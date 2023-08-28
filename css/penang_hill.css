@@ -92,10 +92,36 @@
     line-height: normal;
 }
 
+
 @media screen and (max-width: 992px) {
     .navbar a {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    #intro01 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #intro01 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 415px) {
+
+    #intro01 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
