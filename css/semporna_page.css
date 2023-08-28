@@ -46,17 +46,25 @@
     font-size: 100px;
 }
 
-.font-35 {
-    font-size: 35px;
+.font-60 {
+    font-size: 60px;
+}
+
+.font-38 {
+    font-size: 38px;
 }
 
 .fontBlue {
     color: #39A2DB;
 }
 
+.shadow {
+    text-shadow: black;
+}
+
 #main_page_img {
     position: relative;
-    background-image: url(../img/contact\ background.jpg);
+    background-image: url(../img/semporna/main\ bg.jpg);
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -101,6 +109,56 @@
     --bs-btn-disabled-border-color: #0d6efd
 }
 
+.btn {
+    background-color: #A2DBFA;
+    color: black;
+}
+
+.sem_img1 {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+.sem_img2 {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+.sem_img3 {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+.size_img1 {
+    aspect-ratio: 12 /9;
+    object-fit: cover;
+}
+
+.size_img2 {
+    aspect-ratio: 12 /9;
+    object-fit: cover;
+}
+
+.size_img3 {
+    aspect-ratio: 12 /9;
+    object-fit: cover;
+}
+
+.size_img4 {
+    aspect-ratio: 12 /9;
+    object-fit: cover;
+}
+
+.card {
+    padding: 0;
+
+}
+
+.img_food {
+    aspect-ratio: 17.5 /9;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 992px) {
     .navbar a {
         text-align: center;
@@ -125,6 +183,11 @@
         justify-content: end;
         padding-right: 48px;
     }
+
+    #flex1 {
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -194,6 +257,10 @@
 
     #get-in-touch .row .col-8 {
         width: 80%;
+    }
+
+    .slideshow_crad {
+        flex-direction: column;
     }
 }
 

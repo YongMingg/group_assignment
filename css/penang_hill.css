@@ -13,6 +13,10 @@
     font-weight: bold;
 }
 
+.nav-link:visited {
+    color: white;
+}
+
 .nav-link:hover {
     color: #A2DBFA;
 }
@@ -94,6 +98,11 @@
 
 
 @media screen and (max-width: 992px) {
+
+    .fontContent {
+        font-size: 30px;
+    }
+
     .navbar a {
         text-align: center;
         padding-top: 10px;
@@ -104,6 +113,25 @@
         display: flex;
         flex-direction: column;
     }
+
+    .food {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 48px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 48px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -113,6 +141,65 @@
         flex-direction: column;
     }
 
+    .navbar a {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* for footer css */
+    .footer {
+        flex-direction: column;
+    }
+
+    #footer-logo {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer-navlink {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-navlink a {
+        padding-top: 16px;
+    }
+
+    #footer-social {
+        justify-content: center;
+    }
+
+    #footer-social img {
+        width: 80px;
+        padding: 20px;
+    }
+
+    #footer-copyright {
+        justify-content: center;
+    }
+
+    #footer-copyright p {
+        text-align: center;
+    }
+
+    /* for nav footer css end*/
+
+    .fontContent {
+        font-size: 20px;
+    }
+
+    #main_page_img h1 {
+        font-size: 120px;
+    }
+
+    #main_page_img {
+        height: 600px;
+    }
+
+    .font-80 {
+        font-size: 50px;
+    }
 
 }
 
@@ -123,5 +210,23 @@
         flex-direction: column;
     }
 
+    #main_page_img h1 {
+        font-size: 100px;
+    }
 
+    #main_page_img {
+        height: 500px;
+    }
+
+    .font-80 {
+        font-size: 25px;
+    }
+
+    .font-100 {
+        font-size: 50px;
+    }
+
+    .big_P {
+        width: 294px;
+    }
 }

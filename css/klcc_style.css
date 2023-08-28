@@ -13,6 +13,10 @@
     font-weight: bold;
 }
 
+.nav-link:visited {
+    color: white;
+}
+
 .nav-link:hover {
     color: #A2DBFA;
 }
@@ -43,6 +47,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fontWhite {
+    color: white;
+    margin: 0;
+}
+
+.fontRelative {
+    position: relative;
 }
 
 #main_page_img h1 {
@@ -113,12 +126,37 @@
     object-position: center;
 }
 
+@media screen and (max-width: 1050px) {
+    #footer-logo a img {
+        width: 100%;
+    }
+}
+
+
 @media screen and (max-width: 992px) {
     .navbar a {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    #footer-social {
+        justify-content: end;
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 48px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 48px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -191,5 +229,19 @@
 
     #flex5 {
         flex-direction: column;
+    }
+
+    #flex6 {
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    #flex7 {
+        flex-direction: column;
+    }
+
+    .transport {
+        width: 100%;
+        margin-bottom: 60px;
     }
 }

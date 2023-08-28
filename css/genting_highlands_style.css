@@ -13,6 +13,10 @@
     font-weight: bold;
 }
 
+.nav-link:visited {
+    color: white;
+}
+
 .nav-link:hover {
     color: #A2DBFA;
 }
@@ -229,34 +233,41 @@
     --bs-btn-disabled-border-color: #0d6efd
 }
 
-.parallax {
-    min-height: 700px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#shudaxia-parallax {
-    background-image: url(../img/shudaxia.jpg);
-}
-
-#fuhu-parallax {
-    background-image: url(../img/fuhufront.jpg);
-}
-
 @media screen and (max-width: 992px) {
-
-
     .navbar a {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
+    #footer-social {
+        justify-content: end;
+
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 48px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 48px;
+    }
 
     .social-icon {
         margin-top: 18px;
+    }
+
+    #below-theme-park {
+        height: 420px;
+    }
+
+    #below-gentingskyway {
+        height: 270px;
     }
 }
 
@@ -449,6 +460,12 @@
 
     #fuhu .col-4 p {
         margin: 24px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #theme-park {
+        height: 1550px;
     }
 }
 

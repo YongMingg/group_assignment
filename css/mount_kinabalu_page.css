@@ -13,6 +13,10 @@
     font-weight: bold;
 }
 
+.nav-link:visited {
+    color: white;
+}
+
 .nav-link:hover {
     color: #A2DBFA;
 }
@@ -61,30 +65,72 @@
     pointer-events: none;
 }
 
-.center-caption {
-    position: absolute;
-    top: 42%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: left;
-    font-size: 28px;
-}
-
 .Legend_kianbalu {
+    background-image: url(../img/kinabalu/legends-mt-kinabalu.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
     position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .Legend_kianbalu::before {
     content: "";
     position: absolute;
-    top: 18%;
-    left: 45%;
-    width: 40%;
-    height: 70%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     pointer-events: none;
+}
+
+.legends-inside {
+    position: relative;
+}
+
+.fontWhite {
+    color: white;
+    margin: 0;
+}
+
+.fontRelative {
+    position: relative;
+}
+
+.black_cover::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+#meeturan {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+#kuihpenyaram {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+#coconutpuding {
+    aspect-ratio: 17.1 /9;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: #A2DBFA;
+    color: black;
 }
 
 .footer {
@@ -117,6 +163,14 @@
     font-size: 80px;
 }
 
+.font-60 {
+    font-size: 50px;
+}
+
+.font-40 {
+    font-size: 38px;
+}
+
 .transport {
     border: 2px black solid;
 }
@@ -126,6 +180,24 @@
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    #footer-social {
+        justify-content: end;
+
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 48px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 48px;
     }
 }
 
@@ -202,4 +274,138 @@
     #flex5 {
         flex-direction: column;
     }
+
+    .Legend_kianbalu {
+        height: 1000px;
+    }
+
+}
+
+@media screen and (max-width: 416px) {
+    .automatic {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Tab-css */
+
+.automatic {
+    text-align: center;
+}
+
+[role="tablist"] {
+    min-width: 100%;
+}
+
+[role="tab"],
+[role="tab"]:focus,
+[role="tab"]:hover {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    top: 2px;
+    margin: 0;
+    margin-top: 4px;
+    padding: 3px 3px 4px;
+    border: 1px solid hsl(219deg 1% 72%);
+    border-bottom: 2px solid hsl(219deg 1% 72%);
+    border-radius: 5px 5px 0 0;
+    background-color: rgb(162 219 250);
+    outline: none;
+    font-weight: normal;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+[role="tab"][aria-selected="true"] {
+    padding: 2px 2px 4px;
+    margin-top: 0;
+    border-width: 2px;
+    border-top-width: 6px;
+    border-top-color: rgb(36 116 214);
+    border-bottom-color: hsl(220deg 43% 99%);
+    background: hsl(220deg 43% 99%);
+}
+
+[role="tab"][aria-selected="false"] {
+    border-bottom: 1px solid hsl(219deg 1% 72%);
+}
+
+[role="tab"] span.focus {
+    display: inline-block;
+    margin: 2px;
+    padding: 4px 6px;
+    text-align: center;
+}
+
+[role="tab"]:hover span.focus,
+[role="tab"]:focus span.focus,
+[role="tab"]:active span.focus {
+    padding: 2px 4px;
+    border: 2px solid rgb(36 116 214);
+    border-radius: 3px;
+}
+
+[role="tabpanel"] {
+    padding: 5px;
+    border: 2px solid hsl(219deg 1% 72%);
+    border-radius: 0 5px 5px;
+    background: hsl(220deg 43% 99%);
+    min-height: 10em;
+    width: 100%;
+    overflow: auto;
+}
+
+[role="tabpanel"].is-hidden {
+    display: none;
+}
+
+[role="tabpanel"] p {
+    margin: 0;
+}
+
+/* Table */
+.annotate {
+    font-style: italic;
+    color: #366ed4;
+}
+
+[scope="row"] {
+    text-align: center;
+    font-weight: normal;
+}
+
+.table th {
+    background-color: rgb(57 162 219);
+    color: white;
+}
+
+[role="table"] {
+    display: table;
+}
+
+[role="table"]>div[id] {
+    display: table-caption;
+}
+
+[role="table"] [role="row"] {
+    display: table-row;
+}
+
+[role="table"] [role="cell"],
+[role="table"] [role="columnheader"] {
+    display: table-cell;
+    padding: 0.125em 0.25em;
+    width: 8em;
+}
+
+[role="table"] [role="columnheader"] {
+    border-bottom: thin solid #888;
+}
+
+[role="table"] [role="rowgroup"]:last-child [role="row"]:nth-child(odd) {
+    background-color: #ddd;
 }

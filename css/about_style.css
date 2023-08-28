@@ -8,6 +8,10 @@
     background-color: #053742;
 }
 
+.nav-link:visited {
+    color: white;
+}
+
 .nav-link {
     color: white;
     font-weight: bold;
@@ -102,6 +106,24 @@
 
     #img2 img {
         width: 100%;
+    }
+
+    #footer-social {
+        justify-content: end;
+
+    }
+
+    .footer_logo {
+        padding-right: 24px;
+    }
+
+    #footer_logo_end {
+        padding-right: 48px;
+    }
+
+    #footer-copyright {
+        justify-content: end;
+        padding-right: 48px;
     }
 }
 
