@@ -109,6 +109,11 @@
     --bs-btn-disabled-border-color: #0d6efd
 }
 
+.btn {
+    background-color: #A2DBFA;
+    color: black;
+}
+
 .sem_img1 {
     aspect-ratio: 17.1 /9;
     object-fit: cover;
@@ -178,6 +183,11 @@
         justify-content: end;
         padding-right: 48px;
     }
+
+    #flex1 {
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -249,8 +259,8 @@
         width: 80%;
     }
 
-    .d-flex {
-        flex-direction: row;
+    .slideshow_crad {
+        flex-direction: column;
     }
 }
 
