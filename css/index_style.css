@@ -15,6 +15,10 @@
     font-weight: bold;
 }
 
+.nav-link:visited {
+    color: white;
+}
+
 .nav-link:hover {
     color: #A2DBFA;
 }
