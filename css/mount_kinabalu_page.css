@@ -324,6 +324,15 @@
         height: 1000px;
     }
 
+    #main_page_img p {
+        font-size: 50px;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+
+    .font-100 {
+        font-size: 90px;
+    }
 }
 
 @media screen and (max-width: 416px) {
@@ -338,6 +347,17 @@
 
     #main_page_img h1 {
         font-size: 100px;
+    }
+
+    #main_page_img p {
+        font-size: 40px;
+        text-align: end;
+        line-height: normal;
+        padding-bottom: 20px;
+    }
+
+    .font-100 {
+        font-size: 80px;
     }
 }
 
