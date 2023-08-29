@@ -121,9 +121,7 @@
 
 @media screen and (max-width: 992px) {
 
-    .fontContent {
-        font-size: 30px;
-    }
+
 
     .navbar a {
         text-align: center;
@@ -237,9 +235,7 @@
 
     /* for nav footer css end*/
 
-    .fontContent {
-        font-size: 20px;
-    }
+
 
     #main_page_img h1 {
         font-size: 120px;
@@ -249,8 +245,12 @@
         height: 600px;
     }
 
+    .font-100 {
+        font-size: 90px;
+    }
+
     .font-80 {
-        font-size: 50px;
+        font-size: 70px;
     }
 
 }
@@ -270,12 +270,16 @@
         height: 500px;
     }
 
-    .font-80 {
-        font-size: 25px;
+    .font-100 {
+        font-size: 80px;
     }
 
-    .font-100 {
-        font-size: 50px;
+    .font-80 {
+        font-size: 60px;
+    }
+
+    .fontContent {
+        font-size: 30px;
     }
 
 
