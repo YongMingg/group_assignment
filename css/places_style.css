@@ -337,6 +337,58 @@
         padding-left: 24px;
         padding-bottom: 24px;
     }
+
+    #klcc {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    #penang-hill {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    #langkawi {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    #genting {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    #cameron {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    #kekloksi {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    #kinabalu {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    #semporna {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .state-flag img {
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 415px) {
