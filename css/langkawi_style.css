@@ -175,6 +175,12 @@
         flex-direction: column-reverse;
     }
 
+    #margin_btm {
+        margin-bottom: 30px;
+    }
+
+
+
     .carousel-item::before {
         top: 45%;
         left: 0;
@@ -188,6 +194,14 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .font-100 {
+        font-size: 90px;
+    }
+
+    .font-80 {
+        font-size: 70px;
+    }
 
     /* for page-change link */
     #page-change {
@@ -294,4 +308,15 @@
         font-size: 100px;
     }
 
+    .fontContent {
+        font-size: 30px;
+    }
+
+    .font-100 {
+        font-size: 80px;
+    }
+
+    .font-80 {
+        font-size: 60px;
+    }
 }
