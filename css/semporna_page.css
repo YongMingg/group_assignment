@@ -316,4 +316,8 @@
     #get-in-touch .row .col-8 {
         width: 95%;
     }
+
+    .font-38 {
+        font-size: 30px;
+    }
 }
