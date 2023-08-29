@@ -252,6 +252,14 @@
     #footer-copyright p {
         text-align: center;
     }
+
+    #main_page_img h1 {
+        font-size: 120px;
+    }
+
+    #main_page_img {
+        height: 600px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -270,5 +278,15 @@
 @media screen and (max-width: 500px) {
     .carousel-caption {
         top: 0;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #main_page_img {
+        height: 500px;
+    }
+
+    #main_page_img h1 {
+        font-size: 100px;
     }
 }

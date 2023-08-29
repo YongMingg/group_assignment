@@ -366,4 +366,8 @@
     .button_viewall button {
         font-size: 30px;
     }
+
+    .carousel-caption h1 {
+        font-size: 100px;
+    }
 }
