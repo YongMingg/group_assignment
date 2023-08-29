@@ -121,9 +121,7 @@
 
 @media screen and (max-width: 992px) {
 
-    .fontContent {
-        font-size: 30px;
-    }
+
 
     .navbar a {
         text-align: center;
@@ -131,16 +129,6 @@
         padding-bottom: 10px;
     }
 
-    #intro01 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .building {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     .footer_logo {
         padding-right: 24px;
@@ -153,6 +141,25 @@
     #footer-copyright {
         justify-content: end;
         padding-right: 24px;
+    }
+
+    .turtle .col-10 {
+        width: 80%;
+    }
+
+    .building .col-4 {
+        width: 80%
+    }
+
+    #intro01 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .building {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -176,11 +183,6 @@
     #previous {
         margin-top: 20px;
         margin-bottom: 10px;
-    }
-
-    #intro01 {
-        display: flex;
-        flex-direction: column;
     }
 
     .navbar a {
@@ -233,9 +235,7 @@
 
     /* for nav footer css end*/
 
-    .fontContent {
-        font-size: 20px;
-    }
+
 
     #main_page_img h1 {
         font-size: 120px;
@@ -245,8 +245,12 @@
         height: 600px;
     }
 
+    .font-100 {
+        font-size: 90px;
+    }
+
     .font-80 {
-        font-size: 50px;
+        font-size: 70px;
     }
 
 }
@@ -266,12 +270,16 @@
         height: 500px;
     }
 
-    .font-80 {
-        font-size: 25px;
+    .font-100 {
+        font-size: 80px;
     }
 
-    .font-100 {
-        font-size: 50px;
+    .font-80 {
+        font-size: 60px;
+    }
+
+    .fontContent {
+        font-size: 30px;
     }
 
 

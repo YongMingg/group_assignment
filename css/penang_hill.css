@@ -125,9 +125,7 @@
 
 @media screen and (max-width: 992px) {
 
-    .fontContent {
-        font-size: 30px;
-    }
+
 
     .navbar a {
         text-align: center;
@@ -140,11 +138,7 @@
         flex-direction: column;
     }
 
-    .food {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
 
     .footer_logo {
         padding-right: 24px;
@@ -185,6 +179,18 @@
     #intro01 {
         display: flex;
         flex-direction: column;
+    }
+
+    .food {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .food .col-4 {
+        width: 80%;
     }
 
     .navbar a {
@@ -237,9 +243,7 @@
 
     /* for nav footer css end*/
 
-    .fontContent {
-        font-size: 20px;
-    }
+    
 
     #main_page_img h1 {
         font-size: 120px;
@@ -249,8 +253,12 @@
         height: 600px;
     }
 
+    .font-100 {
+        font-size: 90px;
+    }
+
     .font-80 {
-        font-size: 50px;
+        font-size: 70px;
     }
 
 }
@@ -271,12 +279,14 @@
     }
 
     .font-80 {
-        font-size: 25px;
+        font-size: 60px;
     }
 
     .font-100 {
-        font-size: 50px;
+        font-size: 80px;
     }
 
-
+    .fontContent {
+        font-size: 30px;
+    }
 }
