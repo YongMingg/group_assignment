@@ -51,6 +51,10 @@
     text-align: right;
 }
 
+#footer-social {
+    justify-content: end;
+}
+
 /* for nav footer css end*/
 
 #main_page_img {
@@ -143,12 +147,12 @@
     }
 
     #footer_logo_end {
-        padding-right: 48px;
+        padding-right: 24px;
     }
 
     #footer-copyright {
         justify-content: end;
-        padding-right: 48px;
+        padding-right: 24px;
     }
 }
 
@@ -191,6 +195,7 @@
     }
 
     #footer-logo {
+        justify-content: center;
         text-align: center;
         padding-top: 20px;
     }
@@ -214,7 +219,12 @@
     }
 
     #footer-copyright {
+        padding-right: 0;
         justify-content: center;
+    }
+
+    #footer_logo_end {
+        padding-right: 0;
     }
 
     #footer-copyright p {

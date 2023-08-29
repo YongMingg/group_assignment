@@ -47,6 +47,10 @@
     text-align: right;
 }
 
+#footer-social {
+    justify-content: end;
+}
+
 #main_page_img {
     position: relative;
     background-image: url(../img/langkawi/istockphoto-838923698-612x612.jpg);
@@ -146,22 +150,17 @@
         width: 100%;
     }
 
-    #footer-social {
-        justify-content: end;
-
-    }
-
     .footer_logo {
         padding-right: 24px;
     }
 
     #footer_logo_end {
-        padding-right: 48px;
+        padding-right: 24px;
     }
 
     #footer-copyright {
         justify-content: end;
-        padding-right: 48px;
+        padding-right: 24px;
     }
 
     .flex1 {
@@ -218,6 +217,7 @@
     }
 
     #footer-logo {
+        justify-content: center;
         text-align: center;
         padding-top: 20px;
     }
@@ -241,7 +241,12 @@
     }
 
     #footer-copyright {
+        padding-right: 0;
         justify-content: center;
+    }
+
+    #footer_logo_end {
+        padding-right: 0;
     }
 
     #footer-copyright p {
