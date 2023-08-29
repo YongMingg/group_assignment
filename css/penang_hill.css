@@ -3,6 +3,21 @@
     background-image: url(../img/web_site\ background\(opacity-50\).png);
 }
 
+/* for page-change link */
+#page-change a {
+    text-decoration: none;
+    color: black;
+}
+
+#page-change a:hover {
+    color: #39A2DB;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+#page-change h4 {
+    font-size: 40px;
+}
+
 /* for nav footer css */
 .navbar {
     background-color: #053742;
@@ -136,6 +151,26 @@
 
 @media screen and (max-width: 768px) {
 
+    /* for page-change link */
+    #page-change {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #page-change h4 {
+        margin: 0;
+    }
+
+    #next {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #previous {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
     #intro01 {
         display: flex;
         flex-direction: column;
@@ -226,5 +261,5 @@
         font-size: 50px;
     }
 
-    
+
 }
