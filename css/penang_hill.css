@@ -115,6 +115,13 @@
     line-height: normal;
 }
 
+.btn-font-color {
+    color: black;
+}
+
+.btn-font-color:hover {
+    color: #39A2DB;
+}
 
 @media screen and (max-width: 992px) {
 
