@@ -262,6 +262,62 @@
         justify-content: end;
         padding-right: 24px;
     }
+
+    #klcc {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    #penang-hill {
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+
+    #langkawi {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    #genting {
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+
+    #cameron {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    #kekloksi {
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
+
+    #kinabalu {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    #semporna {
+        margin-top: 48px;
+        margin-left: 24px;
+        margin-right: 48px;
+        margin-bottom: 48px;
+    }
 }
 
 
@@ -339,48 +395,56 @@
         margin-top: 48px;
         margin-left: 48px;
         margin-right: 48px;
+        margin-bottom: 0;
     }
 
     #penang-hill {
         margin-top: 48px;
         margin-left: 48px;
         margin-right: 48px;
+        margin-bottom: 0;
     }
 
     #langkawi {
         margin-top: 48px;
         margin-left: 48px;
         margin-right: 48px;
+        margin-bottom: 0;
     }
 
     #genting {
         margin-top: 48px;
         margin-left: 48px;
         margin-right: 48px;
+        margin-bottom: 0;
     }
 
     #cameron {
         margin-top: 48px;
         margin-left: 48px;
         margin-right: 48px;
+        margin-bottom: 0;
     }
 
     #kekloksi {
         margin-top: 48px;
         margin-left: 48px;
         margin-right: 48px;
+        margin-bottom: 0;
     }
 
     #kinabalu {
         margin-top: 48px;
         margin-left: 48px;
         margin-right: 48px;
+        margin-bottom: 0;
     }
 
     #semporna {
         margin-top: 48px;
         margin-left: 48px;
         margin-right: 48px;
+        margin-bottom: 96px;
     }
 }
 
