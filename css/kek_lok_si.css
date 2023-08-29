@@ -131,16 +131,6 @@
         padding-bottom: 10px;
     }
 
-    #intro01 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .building {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
     .footer_logo {
         padding-right: 24px;
@@ -153,6 +143,25 @@
     #footer-copyright {
         justify-content: end;
         padding-right: 24px;
+    }
+
+    .turtle .col-10 {
+        width: 80%;
+    }
+
+    .building .col-4 {
+        width: 80%
+    }
+
+    #intro01 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .building {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -176,11 +185,6 @@
     #previous {
         margin-top: 20px;
         margin-bottom: 10px;
-    }
-
-    #intro01 {
-        display: flex;
-        flex-direction: column;
     }
 
     .navbar a {

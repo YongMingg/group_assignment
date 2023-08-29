@@ -140,11 +140,7 @@
         flex-direction: column;
     }
 
-    .food {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
 
     .footer_logo {
         padding-right: 24px;
@@ -185,6 +181,18 @@
     #intro01 {
         display: flex;
         flex-direction: column;
+    }
+
+    .food {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+
+    }
+
+    .food .col-4 {
+        width: 80%;
     }
 
     .navbar a {
