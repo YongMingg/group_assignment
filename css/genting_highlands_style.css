@@ -553,7 +553,7 @@
     }
 
     #casino {
-        height: 1250px;
+        height: 1100px;
     }
 
     #gentingskyway {
@@ -589,5 +589,9 @@
 
     .sc-responsive {
         height: 200px;
+    }
+
+    #ea img {
+        height: 250px;
     }
 }
