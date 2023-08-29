@@ -133,6 +133,10 @@
         padding-bottom: 10px;
     }
 
+    #main_page_img h1 {
+        font-size: 120px;
+    }
+
     /* for footer css */
     .footer {
         flex-direction: column;
@@ -209,5 +213,27 @@
 
     #img3 img {
         padding-top: 30px;
+    }
+
+    .font-100 {
+        font-size: 90px;
+    }
+
+    .font-80 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .font-100 {
+        font-size: 80px;
+    }
+
+    .font-80 {
+        font-size: 60px;
+    }
+
+    .fontContent {
+        font-size: 30px;
     }
 }
