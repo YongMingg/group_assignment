@@ -240,6 +240,14 @@
         padding-bottom: 10px;
     }
 
+    .logo_word {
+        flex-direction: column;
+    }
+
+    .btn_m {
+        margin-top: 50px;
+    }
+
     /* for footer css */
     .footer {
         flex-direction: column;
