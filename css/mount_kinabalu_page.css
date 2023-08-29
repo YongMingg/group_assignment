@@ -358,6 +358,20 @@
 
     .font-100 {
         font-size: 80px;
+        line-height: normal;
+    }
+
+    .fontContent {
+        font-size: 30px;
+    }
+
+    .font-40 {
+        font-size: 30px;
+    }
+
+    .Legend_kianbalu {
+        height: 570px;
+        background-position: 5%;
     }
 }
 
