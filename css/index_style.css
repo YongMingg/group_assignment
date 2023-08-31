@@ -191,6 +191,11 @@
     position: relative;
 }
 
+.carousel-item img {
+    max-width: 100%;
+    /* 关写的 */
+}
+
 .carousel-caption {
     position: absolute;
     top: 30%;
@@ -214,7 +219,7 @@
 
 .d-block {
     height: 650px;
-    aspect-ratio: 22 /9;
+    aspect-ratio: 20 /9;
     object-fit: cover;
 }
 
